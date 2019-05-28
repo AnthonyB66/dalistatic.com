@@ -1,0 +1,219 @@
+
+body
+	{
+		color : black;
+		background-color :#DDDDDD;
+		font-size:13px;
+		margin:auto;
+		margin-top:10px;
+		width : 970px;
+		font-family:arial;
+        text-align: justify;
+	}	
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------
+				EN TETE
+---------------------------------------------------------------------------------------------------------------------*/
+#en_tete
+	{
+
+		margin: auto;
+		height:150px;
+        vertical-align: middle;
+		background-color:white;
+		
+	}
+#en_tete a img
+	{
+		border:none;
+	}
+#en_tete img
+	{
+		
+		
+	}
+
+
+/*---------------------------------------------------------------------------------------------------------------------
+				MENU
+---------------------------------------------------------------------------------------------------------------------*/
+
+
+#menu	ul 
+	{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+	}
+
+#menu li 
+	{
+		float: left;
+		border-right: 1px solid #bbb;
+	}
+
+#menu li a 
+	{
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+#menu li a:hover
+	{
+		background-color: #111;
+	}
+
+#menu .active 
+	{
+		background-color: #4CAF50;
+	}
+
+/*---------------------------------------------------------------------------------------------------------------------
+				CORPS
+---------------------------------------------------------------------------------------------------------------------*/
+
+
+
+#corps
+	{
+		background-color:white;
+		padding:10px;
+  		margin-bottom: 20px;
+
+	}
+#contenu
+	{
+		margin-left:0px;
+		padding-bottom:20px;
+		padding-left:10px;
+
+	}
+	
+#corps h4
+	{
+		
+		border:1px solid #666262;
+		text-align:center;
+		color:#ffffff;
+		padding-top:2px;
+		margin-right:750px;
+		padding-bottom:px;
+		background-color:#666262; /*fond gris*/
+		font-size:20px;
+		font-weight:normal;
+	}
+#corps h3
+	{
+		font-size : 14px;
+		color:#68b065;
+		font-weight:normal;
+	}
+#corps h2
+	{
+		
+		color:#747373;
+		font-size:14px;
+		font-weight:bold;
+		padding-bottom:5px;
+        padding-top: 20px;
+		border-bottom:1px dotted #5f6062;
+	}
+#corps h1
+	{
+		border:1px solid #000603;
+		text-align:center;
+		color:#000000;
+		padding-top:2px;
+		padding-bottom:2px;
+		background-color:#f4f4f4; /*fond gris*/
+		font-size:25px;
+		font-weight:normal;
+		
+	}
+#corps a
+	{
+		text-decoration:none;		
+		color:035d86;
+	}
+
+#corps d
+	{
+		text-decoration:none;		
+		color:white;
+	}
+		
+	
+#corps a:hover
+	{
+				
+	}
+#contenu form
+	{
+		text-align:center;
+		
+	}
+
+table
+	{
+		border-collapse:collapse;
+		width:750px;
+	}
+
+
+/*---------------------------------------------------------------------------------------------------------------------
+						logiciel.html
+---------------------------------------------------------------------------------------------------------------------*/
+#bouton
+	{
+	
+	}
+	
+
+#bouton_a
+	{
+	border-radius:12px 0 12px 0;
+	background: #00af5d;
+	border:none;
+	color:white;
+	font:bold 12px Verdana;
+	padding:6px 0 6px 0;
+	}
+	
+#bouton_d
+    {
+	border-radius:12px 0 12px 0;
+	background: #aee2fc;
+	border:none;
+	color:#fff;
+	font:bold 12px Verdana;
+	padding:6px 0 6px 0;
+	}
+	
+/*---------------------------------------------------------------------------------------------------------------------
+						publications.html
+---------------------------------------------------------------------------------------------------------------------*/	
+	
+td{
+    border : 1px solid black;
+    padding: 10px 15px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.ligne-impaire{
+    background-color: #BBB;
+}
+
+.ligne-paire{
+    background-color: #EEE;
+}
+	
